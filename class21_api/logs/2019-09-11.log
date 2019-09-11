@@ -1,0 +1,347 @@
+[2019-09-11 13:19:25] - [run_test.py-->line:18] - [INFO] : ---------用例开始执行------------
+[2019-09-11 13:19:35] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:19:35] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+[2019-09-11 13:19:43] - [test_01register.py-->line:39] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:19:43] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:19:43] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:19:43] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:19:43] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：注册成功
+[2019-09-11 13:19:46] - [test_01register.py-->line:39] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:19:46] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:19:46] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:19:46] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:19:46] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：手机号不能为空
+[2019-09-11 13:19:49] - [test_01register.py-->line:39] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:19:49] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:19:49] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:19:49] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:19:49] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：密码不能为空
+[2019-09-11 13:19:51] - [test_01register.py-->line:39] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:19:51] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:19:51] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:19:51] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:19:51] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：密码长度不足6位
+[2019-09-11 13:19:56] - [test_01register.py-->line:39] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:19:56] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:19:56] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:19:56] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:19:56] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：密码长度刚好6位
+[2019-09-11 13:19:59] - [test_01register.py-->line:39] - [INFO] : -----------第6条用例开始执行-------------
+[2019-09-11 13:19:59] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:20:00] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:00] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:20:00] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：密码长度刚好18位
+[2019-09-11 13:20:03] - [test_01register.py-->line:39] - [INFO] : -----------第7条用例开始执行-------------
+[2019-09-11 13:20:03] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:20:03] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:03] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:20:03] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：密码长度超过18位
+[2019-09-11 13:20:05] - [test_01register.py-->line:39] - [INFO] : -----------第8条用例开始执行-------------
+[2019-09-11 13:20:05] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:20:05] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:05] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:20:05] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：手机号码格式不正确
+[2019-09-11 13:20:08] - [test_01register.py-->line:39] - [INFO] : -----------第9条用例开始执行-------------
+[2019-09-11 13:20:08] - [test_01register.py-->line:40] - [INFO] : 开始发送请求，请求地址：/member/register
+[2019-09-11 13:20:08] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:08] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+[2019-09-11 13:20:08] - [test_01register.py-->line:79] - [INFO] : 该条用例通过：手机号码已被注册
+[2019-09-11 13:20:11] - [test_02login.py-->line:31] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:20:11] - [test_02login.py-->line:32] - [INFO] : 开始发送请求，请求地址：/member/login
+[2019-09-11 13:20:11] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:11] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+[2019-09-11 13:20:11] - [test_02login.py-->line:59] - [INFO] : 该条用例通过：登录成功
+[2019-09-11 13:20:15] - [test_02login.py-->line:31] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:20:15] - [test_02login.py-->line:32] - [INFO] : 开始发送请求，请求地址：/member/login
+[2019-09-11 13:20:15] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:15] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+[2019-09-11 13:20:15] - [test_02login.py-->line:59] - [INFO] : 该条用例通过：手机号不能为空
+[2019-09-11 13:20:18] - [test_02login.py-->line:31] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:20:18] - [test_02login.py-->line:32] - [INFO] : 开始发送请求，请求地址：/member/login
+[2019-09-11 13:20:18] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:18] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+[2019-09-11 13:20:18] - [test_02login.py-->line:59] - [INFO] : 该条用例通过：密码不能为空
+[2019-09-11 13:20:20] - [test_02login.py-->line:31] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:20:20] - [test_02login.py-->line:32] - [INFO] : 开始发送请求，请求地址：/member/login
+[2019-09-11 13:20:20] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:20] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+[2019-09-11 13:20:20] - [test_02login.py-->line:59] - [INFO] : 该条用例通过：手机号错误
+[2019-09-11 13:20:23] - [test_02login.py-->line:31] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:20:23] - [test_02login.py-->line:32] - [INFO] : 开始发送请求，请求地址：/member/login
+[2019-09-11 13:20:23] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:23] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/login HTTP/1.1" 200 None
+[2019-09-11 13:20:23] - [test_02login.py-->line:59] - [INFO] : 该条用例通过：密码错误
+[2019-09-11 13:20:26] - [test_03recharge.py-->line:45] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:20:26] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:26] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:26] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:26] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：充值成功
+[2019-09-11 13:20:29] - [test_03recharge.py-->line:45] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:20:29] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:29] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:30] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:30] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：手机号不能为空
+[2019-09-11 13:20:32] - [test_03recharge.py-->line:45] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:20:32] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:32] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:32] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:32] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：充值金额不能为空
+[2019-09-11 13:20:36] - [test_03recharge.py-->line:45] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:20:36] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:36] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:36] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:36] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：会员不存在
+[2019-09-11 13:20:38] - [test_03recharge.py-->line:45] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:20:38] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:39] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:39] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:39] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：手机格式不正确
+[2019-09-11 13:20:42] - [test_03recharge.py-->line:45] - [INFO] : -----------第6条用例开始执行-------------
+[2019-09-11 13:20:42] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:42] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:42] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:42] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：输入金额的金额小数超过两位
+[2019-09-11 13:20:45] - [test_03recharge.py-->line:45] - [INFO] : -----------第7条用例开始执行-------------
+[2019-09-11 13:20:45] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:45] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:45] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:45] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：输入金额小于0
+[2019-09-11 13:20:47] - [test_03recharge.py-->line:45] - [INFO] : -----------第8条用例开始执行-------------
+[2019-09-11 13:20:47] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:47] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:47] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:47] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：输入金额大于50万
+[2019-09-11 13:20:50] - [test_03recharge.py-->line:45] - [INFO] : -----------第9条用例开始执行-------------
+[2019-09-11 13:20:50] - [test_03recharge.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/recharge
+[2019-09-11 13:20:50] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:50] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/recharge HTTP/1.1" 200 None
+[2019-09-11 13:20:50] - [test_03recharge.py-->line:78] - [INFO] : 该条用例通过：输入非数字
+[2019-09-11 13:20:53] - [test_04withdraw.py-->line:45] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:20:53] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:20:53] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:53] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:20:53] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：提现成功
+[2019-09-11 13:20:55] - [test_04withdraw.py-->line:45] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:20:55] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:20:55] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:55] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:20:55] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：手机号不能为空
+[2019-09-11 13:20:58] - [test_04withdraw.py-->line:45] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:20:58] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:20:58] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:20:58] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:20:58] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：提现金额不能为空
+[2019-09-11 13:21:00] - [test_04withdraw.py-->line:45] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:21:00] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:00] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:00] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:00] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：会员不存在
+[2019-09-11 13:21:03] - [test_04withdraw.py-->line:45] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:21:03] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:03] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:03] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:03] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：手机格式不正确
+[2019-09-11 13:21:06] - [test_04withdraw.py-->line:45] - [INFO] : -----------第6条用例开始执行-------------
+[2019-09-11 13:21:06] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:06] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:06] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:06] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：输入金额的金额小数超过两位
+[2019-09-11 13:21:09] - [test_04withdraw.py-->line:45] - [INFO] : -----------第7条用例开始执行-------------
+[2019-09-11 13:21:09] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:09] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:09] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:09] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：输入金额小于0
+[2019-09-11 13:21:12] - [test_04withdraw.py-->line:45] - [INFO] : -----------第8条用例开始执行-------------
+[2019-09-11 13:21:12] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:12] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:12] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:12] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：输入金额大于50万
+[2019-09-11 13:21:15] - [test_04withdraw.py-->line:45] - [INFO] : -----------第9条用例开始执行-------------
+[2019-09-11 13:21:15] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:15] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:15] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:15] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：输入非数字
+[2019-09-11 13:21:19] - [test_04withdraw.py-->line:45] - [INFO] : -----------第10条用例开始执行-------------
+[2019-09-11 13:21:19] - [test_04withdraw.py-->line:46] - [INFO] : 开始发送请求，请求地址：/member/withdraw
+[2019-09-11 13:21:19] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:19] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/withdraw HTTP/1.1" 200 None
+[2019-09-11 13:21:19] - [test_04withdraw.py-->line:78] - [INFO] : 该条用例通过：输入金额大于余额
+[2019-09-11 13:21:22] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:21:22] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:22] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:22] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:22] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：竞标成功
+[2019-09-11 13:21:26] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:21:26] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:26] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:26] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:26] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：用户ID为空
+[2019-09-11 13:21:29] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:21:29] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:29] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:29] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:29] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：密码为空
+[2019-09-11 13:21:31] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:21:31] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:31] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:31] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:31] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：标ID为空
+[2019-09-11 13:21:34] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:21:34] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:34] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:34] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:34] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：金额为空
+[2019-09-11 13:21:36] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第6条用例开始执行-------------
+[2019-09-11 13:21:36] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:36] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:36] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:36] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：用户ID小于0
+[2019-09-11 13:21:38] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第7条用例开始执行-------------
+[2019-09-11 13:21:38] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:38] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:38] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:38] - [test_05bidLoan.py-->line:50] - [INFO] : 该条用例未通过：标ID小于0
+[2019-09-11 13:21:38] - [test_05bidLoan.py-->line:53] - [ERROR] : Traceback (most recent call last):
+  File "D:\class21-project\class21_api\testcases\test_05bidLoan.py", line 45, in test_register
+    self.assertEqual(expected,res)
+  File "D:\tmp\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\tmp\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\tmp\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '11005', 'data': None, 'msg': '参数错误，loanId 必须是大于0的正整数'} != {'status': 0, 'code': '11009', 'data': None, 'msg': '不存在该标的'}
+- {'code': '11005', 'data': None, 'msg': '参数错误，loanId 必须是大于0的正整数', 'status': 0}
+?               ^                         ^^^^^^^^^^^^^^^^^^ ---
+
++ {'code': '11009', 'data': None, 'msg': '不存在该标的', 'status': 0}
+?               ^                         ^^^^^
+
+
+[2019-09-11 13:21:41] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第8条用例开始执行-------------
+[2019-09-11 13:21:41] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:41] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:41] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:41] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：密码错误
+[2019-09-11 13:21:45] - [test_05bidLoan.py-->line:33] - [INFO] : -----------第9条用例开始执行-------------
+[2019-09-11 13:21:45] - [test_05bidLoan.py-->line:34] - [INFO] : 开始发送请求，请求地址：/member/bidLoan
+[2019-09-11 13:21:45] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:45] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/member/bidLoan HTTP/1.1" 200 None
+[2019-09-11 13:21:45] - [test_05bidLoan.py-->line:61] - [INFO] : 该条用例通过：金额不能被100整除
+[2019-09-11 13:21:48] - [test_06add.py-->line:46] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:21:48] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:21:48] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:48] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:21:49] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：加标成功
+[2019-09-11 13:21:52] - [test_06add.py-->line:46] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:21:52] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:21:52] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:52] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:21:52] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：参数为空
+[2019-09-11 13:21:57] - [test_06add.py-->line:46] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:21:57] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:21:57] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:21:58] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:21:58] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：用户id不是正整数
+[2019-09-11 13:22:02] - [test_06add.py-->line:46] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:22:02] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:22:02] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:02] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:22:02] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：用户不存在
+[2019-09-11 13:22:04] - [test_06add.py-->line:46] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:22:04] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:22:04] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:04] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:22:04] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：借款金额小于1000
+[2019-09-11 13:22:07] - [test_06add.py-->line:46] - [INFO] : -----------第6条用例开始执行-------------
+[2019-09-11 13:22:07] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:22:07] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:07] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:22:07] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：借款金额不能被100整除
+[2019-09-11 13:22:10] - [test_06add.py-->line:46] - [INFO] : -----------第7条用例开始执行-------------
+[2019-09-11 13:22:10] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:22:10] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:10] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:22:10] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：借款利率非0-24之间数值
+[2019-09-11 13:22:13] - [test_06add.py-->line:46] - [INFO] : -----------第8条用例开始执行-------------
+[2019-09-11 13:22:13] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:22:13] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:13] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:22:13] - [test_06add.py-->line:79] - [INFO] : 该条用例通过：借款日期类型不是0，2，4
+[2019-09-11 13:22:17] - [test_06add.py-->line:46] - [INFO] : -----------第9条用例开始执行-------------
+[2019-09-11 13:22:17] - [test_06add.py-->line:47] - [INFO] : 开始发送请求，请求地址：/loan/add
+[2019-09-11 13:22:17] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:17] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/add HTTP/1.1" 200 None
+[2019-09-11 13:22:17] - [test_06add.py-->line:67] - [INFO] : 该条用例未通过：数值类型输入非数值
+[2019-09-11 13:22:17] - [test_06add.py-->line:70] - [ERROR] : Traceback (most recent call last):
+  File "D:\class21-project\class21_api\testcases\test_06add.py", line 61, in test_register
+    self.assertEqual(expected,res)
+  File "D:\tmp\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\tmp\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\tmp\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'status': 0, 'code': '20109', 'data': None, 'msg': [25 chars]入数字'} != {'status': 1, 'code': '10001', 'data': None, 'msg': '加标成功'}
++ {'code': '10001', 'data': None, 'msg': '加标成功', 'status': 1}
+- {'code': '20109',
+-  'data': None,
+-  'msg': '参数错误：请根据参数类型对应输入，数值类型只能输入数字',
+-  'status': 0}
+
+[2019-09-11 13:22:33] - [test_07audit.py-->line:43] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:22:33] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:22:33] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:34] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:22:34] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：更新状态成功
+[2019-09-11 13:22:37] - [test_07audit.py-->line:43] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:22:37] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:22:37] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:37] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:22:37] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：id为空
+[2019-09-11 13:22:40] - [test_07audit.py-->line:43] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:22:40] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:22:40] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:40] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:22:40] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：status为空
+[2019-09-11 13:22:42] - [test_07audit.py-->line:43] - [INFO] : -----------第4条用例开始执行-------------
+[2019-09-11 13:22:42] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:22:42] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:42] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:22:42] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：status不在状态值1-11之间
+[2019-09-11 13:22:46] - [test_07audit.py-->line:43] - [INFO] : -----------第5条用例开始执行-------------
+[2019-09-11 13:22:46] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:22:46] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:22:46] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:22:46] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：不存在该项目
+[2019-09-11 13:23:04] - [test_07audit.py-->line:43] - [INFO] : -----------第6条用例开始执行-------------
+[2019-09-11 13:23:04] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:23:04] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:23:04] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:23:04] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：修改失败
+[2019-09-11 13:23:06] - [test_07audit.py-->line:43] - [INFO] : -----------第7条用例开始执行-------------
+[2019-09-11 13:23:06] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:23:06] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:23:07] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:23:07] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：直接更新到还款中状态
+[2019-09-11 13:23:09] - [test_07audit.py-->line:43] - [INFO] : -----------第8条用例开始执行-------------
+[2019-09-11 13:23:09] - [test_07audit.py-->line:44] - [INFO] : 开始发送请求，请求地址：/loan/audit
+[2019-09-11 13:23:09] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:23:09] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/loan/audit HTTP/1.1" 200 None
+[2019-09-11 13:23:09] - [test_07audit.py-->line:88] - [INFO] : 该条用例通过：输入非数值类型
+[2019-09-11 13:23:12] - [test_getInvestsByMemberId.py-->line:39] - [INFO] : -----------第1条用例开始执行-------------
+[2019-09-11 13:23:12] - [test_getInvestsByMemberId.py-->line:40] - [INFO] : 开始发送请求，请求地址：/invest/getInvestsByMemberId
+[2019-09-11 13:23:12] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:23:12] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/invest/getInvestsByMemberId HTTP/1.1" 200 None
+[2019-09-11 13:23:12] - [test_getInvestsByMemberId.py-->line:74] - [INFO] : 该条用例通过：获取投资列表成功
+[2019-09-11 13:23:15] - [test_getInvestsByMemberId.py-->line:39] - [INFO] : -----------第2条用例开始执行-------------
+[2019-09-11 13:23:15] - [test_getInvestsByMemberId.py-->line:40] - [INFO] : 开始发送请求，请求地址：/invest/getInvestsByMemberId
+[2019-09-11 13:23:15] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:23:15] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/invest/getInvestsByMemberId HTTP/1.1" 200 None
+[2019-09-11 13:23:15] - [test_getInvestsByMemberId.py-->line:74] - [INFO] : 该条用例通过：用户ID为空
+[2019-09-11 13:23:17] - [test_getInvestsByMemberId.py-->line:39] - [INFO] : -----------第3条用例开始执行-------------
+[2019-09-11 13:23:17] - [test_getInvestsByMemberId.py-->line:40] - [INFO] : 开始发送请求，请求地址：/invest/getInvestsByMemberId
+[2019-09-11 13:23:17] - [connectionpool.py-->line:206] - [DEBUG] : Starting new HTTP connection (1): test.lemonban.com:80
+[2019-09-11 13:23:17] - [connectionpool.py-->line:396] - [DEBUG] : http://test.lemonban.com:80 "POST /futureloan/mvc/api/invest/getInvestsByMemberId HTTP/1.1" 200 None
+[2019-09-11 13:23:17] - [test_getInvestsByMemberId.py-->line:74] - [INFO] : 该条用例通过：用户id不是数字
+[2019-09-11 13:23:19] - [run_test.py-->line:37] - [INFO] : ---------用例执行结束------------
